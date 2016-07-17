@@ -1,0 +1,29 @@
+{
+  "name": "ts-project-with-gulp",
+  "version": "1.0.0",
+  "description": "Exemplo de build TS com Gulp",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "./node_modules/.bin/live-server --open=dist/index.html --host=localhost --port=8080 ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.13.6",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.7",
+    "live-server": "^1.0.0",
+    "tsify": "^1.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "typescript": "^1.8.10"
+  }
+}

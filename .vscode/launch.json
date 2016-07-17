@@ -1,0 +1,17 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch localhost with sourcemaps",
+			"type": "chrome",
+			"request": "launch",
+			"url": "http://localhost:8080/dist",
+			"runtimeArgs": [
+			"--new-window", //Open in new windo
+			"--remote-debugging-port=9222" 
+      		],
+			"sourceMaps": true,
+			"webRoot": "${workspaceRoot}"
+		}
+	]
+}
